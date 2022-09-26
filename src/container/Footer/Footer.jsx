@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { BsTwitter, BsInstagram } from 'react-icons/bs'
+import { FaFacebookF } from 'react-icons/fa'
 
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -75,6 +77,17 @@ const Footer = () => {
           </h3>
         </div>
       )}
+      <div className='app__social-footer'>
+        <div>
+          <a className='app__social-footer' href="https://twitter.com/MChukwuneme" target='_blank'><BsTwitter /></a>
+        </div>
+        <div>
+          <a className='app__social-footer' href="https://facebook.com/martinchukwuneme" target='_blank'><FaFacebookF /></a>
+        </div>
+        <div>
+          <a className='app__social-footer' href="https://instagram.com/martinchukwuneme" target='_blank'><BsInstagram /></a>
+        </div>
+      </div>
     </>
   );
 };

@@ -49,6 +49,11 @@
         width: 100%;
         margin-right: 0rem;
     }
+
+    @media screen and (max-width: 450px) {
+        width: 110%;
+        margin-right: 0rem;
+    }
 }
 
 .app__header-badge {
